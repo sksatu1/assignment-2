@@ -4,9 +4,10 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-color: #E6E6E6;
 }
-/* top-section */
-.container{
+/* top-section Start */
+.top-container{
     height: 677px;
     background: #2D25A0;
     display: grid;
@@ -65,3 +66,45 @@ body{
     
 }
 
+/* Top-section-end */
+
+
+/* main-players-list-section */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+
+.main-container article{
+    width: 330px;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.article-image img{
+    width: 100%;
+}
+
+.players-name{
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.article-details{
+    font-weight: 100;
+    font-size: 16px;
+    color: rgba(108, 108, 108, 1);
+    margin-top: 10px;
+
+}
