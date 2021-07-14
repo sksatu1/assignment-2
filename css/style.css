@@ -6,6 +6,14 @@ body{
     margin: 0;
     background-color: #E6E6E6;
 }
+
+ /* font icon styles */
+.fas {
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
 /* top-section Start */
 .top-container{
     height: 677px;
@@ -29,7 +37,7 @@ body{
     margin-bottom: 25px;
 }
 
-.top-left .top-left-btn{
+button{
     Width: 168px;
     Height: 44px;
     padding: 10px 24px;
@@ -38,13 +46,13 @@ body{
     
 }
 
-.top-left .top-left-btn a{
+button a{
     text-decoration: none;
     color: #FFFFFF;
     font-size: 16px;
 }
 
-.top-left-btn:hover {
+button:hover {
     transform: scale(1.3);
     border-radius: 15px;
    background-image: linear-gradient(rgb(175, 18, 223),rgb(226, 20, 55));
@@ -138,4 +146,4 @@ width: 550px;
     width: 100%;
 }
 
-.
+
