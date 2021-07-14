@@ -25,11 +25,7 @@ body{
     margin: 0;
 }
 
-                           /* top-left-section */
-.top-left{
-    width: 485px;
-    height: 230px;
-}
+                     /* top-left-section */
 
 .top-left .top-heading{
     color: #FFFFFF;
@@ -66,12 +62,10 @@ button:hover {
 }
 
                        /* top-right-section */
-.top-right {
-    width: 556px;
-    height: 438px;
-}
 
 .top-right img{
+    width: 556px;
+    height: 438px;
     width: 100%;
     transition: transform .5s ease-in-out;
 }
@@ -89,6 +83,7 @@ button:hover {
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 30px;
     grid-row-gap: 27px;
+
 }
 
 .players-list article{
@@ -121,6 +116,10 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.fvrt-player-heading{
+    color: #1fcc98;
 }
 
 .player-checkbox{
@@ -187,13 +186,12 @@ button:hover {
 
 @media only screen and (max-width:688px) {
     .main-container, .footer-container{
-        text-align: center;
         width: 100%;
     }
 
     .top-container{
         grid-template-columns: repeat(1,1fr);
-        grid-row-gap: 200px;
+        grid-row-gap: 50px;
     }
 
    .players-list, .footer-container{
@@ -201,8 +199,7 @@ button:hover {
     }
     
     .favourite-players{
-        width: 80%;
-        text-align: center;
+        width: 100%;
     }
 }
 
@@ -220,7 +217,7 @@ button:hover {
     }
     .top-container{
         grid-template-columns: repeat(1,1fr);
-        grid-row-gap: 200px;
+        grid-row-gap: 50px;
     }
 }       
 
