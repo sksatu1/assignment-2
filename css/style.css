@@ -70,13 +70,14 @@ body{
 
 
 /* main-players-list-section */
-main{
+.main-container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.main-container{
+.players-list{
     margin-top: 70px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -84,7 +85,7 @@ main{
     grid-row-gap: 27px;
 }
 
-.main-container article{
+.players-list article{
     width: 330px;
     padding: 15px;
     background: #FFFFFF;
@@ -108,3 +109,33 @@ main{
     margin-top: 10px;
 
 }
+
+/* highlights-section */
+
+.highlights-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 66px;
+    margin-top: 165px;
+}
+
+.hightlight-info{
+    width: 469px;
+}
+
+.highlights-details{
+    font-weight: 100;
+    font-size: 16px;
+    color: rgba(108, 108, 108, 1);
+    margin-top: 10px;
+}
+
+.highlight-thumbnail{
+width: 550px;
+}
+
+.highlight-thumbnail img{
+    width: 100%;
+}
+
+.
