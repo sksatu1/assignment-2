@@ -4,15 +4,10 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    background-color: #E6E6E6;
+    background-color: #FFFFFF;
 }
 
  /* font icon styles */
-.fas {
-    font-weight: 900;
-    color: #FFFFFF;
-    margin-left: 10px;
-}
 
 /* top-section Start */
 .top-container{
@@ -50,6 +45,12 @@ button a{
     text-decoration: none;
     color: #FFFFFF;
     font-size: 16px;
+}
+
+.btn-icon{
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-left: 10px;
 }
 
 button:hover {
@@ -144,6 +145,50 @@ width: 550px;
 
 .highlight-thumbnail img{
     width: 100%;
+}
+
+/* footer section */
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 158px;
+}
+
+.footer-logo{
+    width: 484px;
+}
+
+.footer-logo img{
+    width: 100%;
+    height: 110px;
+}
+
+.footer-info{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-icons .filled{
+    background: #d2d3d8;
+    color: #8d909b;
+    font-size: 17px;
+    padding: 7px;
+    border-radius: 50%;
+    margin-left: 14px;
+}
+
+.filled:hover{
+    transform: scale(1.5);
+    transition: transform .3s ease-in-out;
+}
+
+.copyright-heading{
+    font-weight: 100;
+    font-size: 16px;
+    color: rgba(108, 108, 108, 1);
 }
 
 
